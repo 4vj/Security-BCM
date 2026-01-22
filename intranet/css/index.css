@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    height:100vh;
+}
+
+main {
+    height: calc(100% - 60px - 60px); /* remove header and footer */
+}
+
+main article {
+    height:calc(100%);
+}
+
+form label {
+    width:9em;
+    display:inline-block;
+}

@@ -1,0 +1,11 @@
+parameters:
+    level: 9
+    paths:
+        - .
+    excludePaths:
+        - database
+        - intranet/addklantentoldap.php
+        - test
+    ignoreErrors:
+        - "#Cannot access offset.*#"
+        - "#.*echo cannot be converted to string.*#"

@@ -1,0 +1,11 @@
+body {
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+}
+
+main {
+    height: calc(100% - 60px - 60px);  /* exclude footer and navigation bar */
+}
